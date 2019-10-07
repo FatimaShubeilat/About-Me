@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: rgb(224, 129, 129);
 }
 ol, ul {
 	list-style: none;
@@ -46,3 +47,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1 {
+    font-size: 150%;
+}
+.myName {
+    font-size: 500%;
+}
+.greeting {
+    font-size: 200%;
+}
+.job {
+    font-size: 150%;
+    font-weight: bold;
+}
+.left{
+    float: right;
+}
+    .right  {
+        float: right;
+    }
