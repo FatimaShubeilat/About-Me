@@ -61,8 +61,20 @@ h1 {
     font-weight: bold;
 }
 .left{
-    float: right;
+    float: left;
+    color: aliceblue;
+    width: 40%;
+    padding: 10%;
 }
     .right  {
         float: right;
+        padding: 8%;
     }
+footer {
+    clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -200px;
+    text-align: center;
+    background-color: antiquewhite;
+}
