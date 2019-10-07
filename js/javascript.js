@@ -52,9 +52,9 @@ var dark = prompt('Are you afraid of the dark?');
 dark = dark.toLowerCase();
 
 if (dark == 'yes' || dark == 'y') {
-    alert('My webpage brightness will keep you away from darkness :) ');
+    alert('My webpage brightness will keep you away from darkness :) ' + name);
     // console.log('My webpage brightness will keep you away from darkness :) ');
 } else if (dark == 'no' || dark == 'n') {
-    alert('Keep it off I\'ll got to sleep and leave you with my webpage :D');
+    alert('Keep it off I\'ll got to sleep and leave you with my webpage :D ' + name);
     // consol.log('Keep it off I\'ll got to sleep and leave you with my webpage :D');
 }
