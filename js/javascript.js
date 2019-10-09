@@ -1,7 +1,10 @@
 'use strict';
+var score =0;
 
 var name = prompt('Whoa! glad someone showed up finally, I was expecting you, remind me with your name again please?');
 alert('Hi ' + name + ' please take a seat, we will be asking you 5 short questions');
+
+function personal (){
 
 var any = prompt('Do you Use Social Media for more than 2 hours?');
 any = any.toLowerCase();
@@ -58,7 +61,10 @@ if (dark == 'yes' || dark == 'y') {
     alert('Keep it off I\'ll got to sleep and leave you with my webpage :D ' + name);
     // consol.log('Keep it off I\'ll got to sleep and leave you with my webpage :D');
 }
+}
+personal();
 
+function guessgame (){
 
 for (let index = 0; index < 4; index++) {
     
@@ -80,14 +86,17 @@ else if(index == 3) {
 alert('Sorry you only have 4 times to try, I love summer! so it would be 90 :D ')
 }
 }
+}
+guessgame()
 // console.log(score);
 
 //  7th question
 
-
+function favauthor (){
 var authorFav = ['paulo' , 'jubran' , 'mustafa' , 'john', 'tawfiq', 'amal' ];
 
 for (let i = 0 ; i < 6 ; i++) {
+
     var multipleAnsw = prompt('Can you name some of my authors\', the first name would do it?');
     multipleAnsw = multipleAnsw.toLowerCase();
 
@@ -99,6 +108,9 @@ if (multipleAnsw == authorFav[j])
 }
 }
 }
+}
+
+favauthor()
 
 alert('well, seems you got ' + score + ' out of 12');
 
