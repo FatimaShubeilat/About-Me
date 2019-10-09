@@ -105,3 +105,5 @@ if (multipleAnsw == authorFav[j])
 }
 
 alert('well, seems you got ' + score + ' out of 12');
+
+// trying to merge
