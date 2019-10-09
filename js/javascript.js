@@ -58,3 +58,49 @@ if (dark == 'yes' || dark == 'y') {
     alert('Keep it off I\'ll got to sleep and leave you with my webpage :D ' + name);
     // consol.log('Keep it off I\'ll got to sleep and leave you with my webpage :D');
 }
+
+
+for (let index = 0; index < 4; index++) {
+    
+var numberGuess = prompt('how much do I like summer? Come on guess a number out of 100')
+if(numberGuess == 90){
+    score ++;
+    alert('Yes! now you get it ;)');
+    break;
+}
+else if(numberGuess <= 50)
+{
+    alert('Too low');
+}
+else if(numberGuess > 90)
+{
+    alert('Too high');
+}
+else if(index == 3) {
+alert('Sorry you only have 4 times to try, I love summer! so it would be 90 :D ')
+}
+}
+// console.log(score);
+
+//  7th question
+
+
+var authorFav = ['paulo' , 'jubran' , 'mustafa' , 'john', 'tawfiq', 'amal' ];
+
+for (let i = 0 ; i < 6 ; i++) {
+    var multipleAnsw = prompt('Can you name some of my authors\', the first name would do it?');
+    multipleAnsw = multipleAnsw.toLowerCase();
+
+for (let j =0; j < 6; j++) {
+if (multipleAnsw == authorFav[j])
+{
+    alert('YES! that is right he is one of my favourites :) ');
+    score++;
+}
+}
+}
+
+alert('well, seems you got ' + score + ' out of 12');
+
+// trying to merge
+
