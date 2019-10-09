@@ -66,7 +66,7 @@ function personal (){
         score ++;
         // consol.log('Keep it off I\'ll got to sleep and leave you with my webpage :D');
     }
-    
+}    
 personal();
 
 function guessgame (){
@@ -118,7 +118,7 @@ if(checkingOut == 1) {break;}
 }
 }
 
-favauthor()
+favauthor();
 
 alert('well, seems you got ' + score + ' out of 12');
 
