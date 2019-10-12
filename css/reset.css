@@ -47,6 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*
 h1 {
     font-size: 150%;
 }
@@ -78,3 +79,138 @@ footer {
     text-align: center;
     background-color: antiquewhite;
 }
+*/
+/* Start main rules */
+body {
+    margin :0;
+    background-color: #888;
+  }
+  .container {
+    width: 1050px;
+    margin: auto;
+    background-color: green;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  /* End main rules */
+  
+  /* Start Header */
+  header nav {
+    background-color: #BD787D;
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* this helped that the words won't cover the navbar */
+    
+  }
+  header nav h2 {
+    float: left;
+    margin-left: 30px;
+    padding: 25px 20px;
+  }
+  header nav h2 span {
+    color: #e6d7da;
+  }
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+  }
+  header nav ul li {
+    float: left; /* to become at the same line not vertical */
+    padding: 10px;
+  }
+  header nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  header nav ul li a:hover {
+      color: #873647;
+  }
+  .active {
+      color: #873647;
+  }
+  /* End Header */
+  
+  /* Start About Me */
+  
+    .about {padding-top:50px;padding-bottom:70px; padding-left: 20px; background-color: #5E6C55;}
+    .about h2 {color: #e8d7d7; font-size: 30px;}
+    .about p {font-size: 25px; color: #c4b8b8}
+ 
+  .centered {
+      font-size: 48px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    color: #f7eded;
+    background-color: rgba(102, 104, 67, 0.3);
+      transform: translate(-50%, -50%);
+  }
+  
+  
+  .tint {
+    position: relative;
+    
+  }
+  
+  .tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(102, 104, 67, 0.4);
+    transition: all .3s linear;
+  }
+
+  /* End About Me */
+  
+  /* Start Portfolio */
+  .experience {padding-top:50px;padding-bottom:70px; padding-left: 20px; background-color: #5E6C55;}
+  .experience h2 {color: #e8d7d7; font-size: 30px;}
+  .experience p {font-size: 25px; color: #c4b8b8}
+  
+  
+  .job {
+    font-size: 150%;
+    font-weight: bold;
+}
+.left{
+    float: left;
+    color: aliceblue;
+    width: 40%;
+    padding: 10%;
+}
+
+  /* End Portfolio */
+
+  /* Start Footer */
+  
+  footer {
+      background-color:#494141;
+      color:#6A6E71;
+      padding:50px 0;
+      overflow:hidden;
+  }
+  footer .copyright {
+    background-color:#494141;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+
+  /* End Footer */
